@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       // routes: {"/" : (context)=>TextBoxPage(),                                                              
       //   "/halaman2" : (context)=>Page2()},
       // initialRoute: "/", 
-      home: Coba()
+      home: TextBoxPage()
       );
   }
 }
