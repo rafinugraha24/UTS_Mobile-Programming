@@ -8,14 +8,21 @@ class Coba extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Mencoba Flutter")),
-      body: Center(
-        child: Container(
-          alignment: Alignment(-0.2, -1),
-          child: Image(image: AssetImage('gambar/Logo.png')),
-          
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Row(
+              children: [
+                  Container(
+                    alignment: AlignmentGeometry.xy(-0.3, -1),
+                    child: Image(image: AssetImage('gambar/Logo.png'))),
+                  
+                  // Container(
+                  //   alignment: Alignment(-0.2, -1),
+                  //   child: Text("Percobaan"),
+                  // )
+                ],
+            ),
         ),
-        
-      ),
-    );
+      );
   }
 }
