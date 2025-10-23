@@ -12,14 +12,17 @@ class Coba extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Row(
               children: [
-                  Container(
-                    alignment: AlignmentGeometry.xy(-0.3, -1),
-                    child: Image(image: AssetImage('gambar/Logo.png'))),
-                  
+                  Center(
+                    child: Container(
+                      alignment: Alignment(1, 2),
+                      child: Image(image: AssetImage('gambar/Logo.png'))),
+                  ),
+                  // belum ada perubahan
                   // Container(
                   //   alignment: Alignment(-0.2, -1),
                   //   child: Text("Percobaan"),
                   // )
+
                 ],
             ),
         ),
