@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class TextBoxPage extends StatefulWidget {
-  const TextBoxPage({super.key});
+class Login extends StatefulWidget {
+  const Login({super.key});
 
   @override
-  State<TextBoxPage> createState() => _TextBoxPageState();
+  State<Login> createState() => _LoginState();
 }
 
-class _TextBoxPageState extends State<TextBoxPage> {
+class _LoginState extends State<Login> {
     bool _showpassword = true;
   final TextEditingController _emailcontroller = TextEditingController();
   final TextEditingController _passwordcontroller = TextEditingController();
