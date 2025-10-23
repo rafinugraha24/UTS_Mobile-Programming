@@ -9,7 +9,12 @@ class Coba extends StatelessWidget {
       appBar: AppBar(
         title: Text("Mencoba Flutter")),
       body: Center(
-        child: Image(image: AssetImage('gambar/Logo.png'))
+        child: Container(
+          alignment: Alignment(-0.2, -1),
+          child: Image(image: AssetImage('gambar/Logo.png')),
+          
+        ),
+        
       ),
     );
   }
