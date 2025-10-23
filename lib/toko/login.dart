@@ -8,7 +8,7 @@ class TextBoxPage extends StatefulWidget {
 }
 
 class _TextBoxPageState extends State<TextBoxPage> {
-  final TextEditingController _namacontroller = TextEditingController();
+  final TextEditingController _emailcontroller = TextEditingController();
 
 
   @override
@@ -26,13 +26,13 @@ class _TextBoxPageState extends State<TextBoxPage> {
                     alignment: Alignment(0, 0),
                     child: Image(image: AssetImage('gambar/Logo.png'))),
 
-                  Text("Nama :"),
+                  Text("Email :"),
                     TextField(
-                      controller: _namacontroller,
+                      controller: _emailcontroller,
                       decoration: InputDecoration(
                         prefixIcon: Icon(Icons.person),
                         // labelText: "Sandi",
-                        hintText: "Masukan Nama Lengkap",
+                        hintText: "Masukan Email Anda",
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(8),
                         )
