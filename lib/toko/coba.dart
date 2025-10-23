@@ -8,6 +8,9 @@ class Coba extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Mencoba Flutter")),
+      body: Center(
+        child: Image(image: AssetImage('gambar/Logo.png'))
+      ),
     );
   }
 }
