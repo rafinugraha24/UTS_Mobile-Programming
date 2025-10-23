@@ -30,8 +30,6 @@ class _TextBoxPageState extends State<TextBoxPage> {
                     TextField(
                       controller: _emailcontroller,
                       decoration: InputDecoration(
-                        prefixIcon: Icon(Icons.person),
-                        // labelText: "Sandi",
                         hintText: "Masukan Email Anda",
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(8),
