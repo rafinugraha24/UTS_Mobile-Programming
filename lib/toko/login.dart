@@ -14,15 +14,11 @@ class Coba extends StatelessWidget {
               children: [
                   Center(
                     child: Container(
-                      alignment: Alignment(1, 2),
+                      height: 120.0,
+                      width: 120.0,
+                      alignment: Alignment(0, 0),
                       child: Image(image: AssetImage('gambar/Logo.png'))),
                   ),
-                  // belum ada perubahan
-                  // Container(
-                  //   alignment: Alignment(-0.2, -1),
-                  //   child: Text("Percobaan"),
-                  // )
-
                 ],
             ),
         ),
